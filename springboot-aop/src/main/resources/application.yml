@@ -1,0 +1,4 @@
+spring:
+  aop:
+    auto: true                # Add @EnableAspectJAutoProxy
+    proxy-target-class: true  # 为true则是基于类的代理将起作用（需要cglib库），为false或者省略这个属性，则标准的JDK基于接口的代理将起作用。
